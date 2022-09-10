@@ -1,0 +1,46 @@
+<html>
+
+	<head>
+		
+		<title>Acessar Conta</title>
+		
+		<link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css"/>	
+	</head>
+
+	<body class="bg-secondary">
+	
+		<div class="col-md-4 offset-md-4">
+			<div class="card">
+				<div class="Text-center">
+					<h3>Acesso ao Sistema</h3>
+					<p>Entre com suas credencias de acesso</p>
+					<hr/>
+				</div>
+				
+				<form>
+					
+					<div class="mb-3">
+						<label>Email de acesso:</label>
+						<input type="text" placeholder="Digite aqui" class="form-control">
+					</div>
+					
+					<div class="mb-3">
+						<label>Senha de acesso:</label>
+						<input type="text" placeholder="Digite aqui" class="form-control">
+						<div class="text-end">
+							<a href="/projetoweb01/password">
+								Esqueci minha senha
+							</a>
+						</div>
+					</div>
+					
+				</form>
+				
+			</div>
+		</div>
+	
+		<script src="resources/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	</body>
+
+
+</html>
